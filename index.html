@@ -1,24 +1,238 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 3</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 3 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: El Baile de los Pasos Secretos</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Entender el concepto de secuencia como "pasos en orden".</li>
+<li>Seguir una secuencia de 2-3 acciones corporales.</li>
+<li>Introducir la idea de "primero" y "después".</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Ejecución exitosa de secuencias de 2-3 acciones corporales en el orden correcto.</li>
+<li>Descripción verbal de secuencias utilizando "primero" y "después".</li>
+<li>Creación y demostración de una secuencia lógica de dos tarjetas de acción.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Tarjetas con dibujos de acciones simples (1. Saltar, 2. Aplaudir, 3. Girar).</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Conectando Mente y Cuerpo! ⏰ 5 min</h2>
+<p>Activamos nuestros superpoderes con una canción que nos enseña a seguir el ritmo y el orden de nuestro cuerpo.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Canción de Calentamiento y Bienvenida ⏰ 3 min</h3>
+<p>Invita a los niños a formar un círculo, saludándolos con entusiasmo. Anima a cantar y realizar los movimientos de 'Cabeza, hombros, rodillas y pies' enfatizando el orden de las partes del cuerpo. (Proyectar Diapositiva 1)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, exploradores de la creatividad! ¡Qué emoción que estemos juntos hoy! ¿Listos para una misión increíble? Para empezar, vamos a despertar nuestro cuerpo y nuestra mente con una canción que nos encanta. ¡Vamos a cantar 'Cabeza, hombros, rodillas y pies' y a movernos con mucho ritmo!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¿Cuál va Primero? ⏰ 2 min</h3>
+<p>Después de cantar, haz preguntas que refuercen la idea de orden dentro de la canción. Por ejemplo, "¿Qué parte del cuerpo mencionamos primero, la cabeza o los pies?" o "¿Qué va después de los hombros?". (Proyectar Diapositiva 2)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Lo hicieron genial! ¡Qué bien se movieron! Ahora, quiero preguntarles algo muy importante: Cuando cantamos 'Cabeza, hombros, rodillas y pies', ¿qué parte de nuestro cuerpo mencionamos primero? ¿Y qué va después de los hombros? ¡Exacto! ¡Hay un orden! Primero la cabeza, luego los hombros, después las rodillas y al final los pies. ¡El orden es muy importante para que la canción suene bien y para que nuestros movimientos sean perfectos!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: ¡El Misterio del Orden! ⏰ 10 min</h2>
+<p>Descubrimos juntos por qué el orden es clave en nuestras acciones diarias a través de una pequeña historia.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: La Historia de ¡Primero y Después! - Vestirse ⏰ 5 min</h3>
+<p>Reúne a los niños en un lugar cómodo para contar una mini-historia. Usa el ejemplo de vestirse, preguntando qué va 'primero' y qué va 'después' para enfatizar la importancia del orden. (Proyectar Diapositiva 3)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Equipo! ¿Listos para un pequeño misterio? Hoy vamos a ser detectives del orden. Imaginen que se van a vestir en la mañana para venir a la escuela. ¿Qué se ponen primero, los calcetines o los zapatos? ¡Piensen, piensen! Si se ponen los zapatos primero, ¡sería muy difícil ponerse los calcetines después! ¡Exacto! ¡Primero los calcetines y después los zapatos! ¡El orden es súper importante para que todo salga bien!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Historia de ¡Primero y Después! - Lavarse las Manos ⏰ 5 min</h3>
+<p>Continúa con otro ejemplo cotidiano como lavarse las manos, guiando a los niños a identificar el orden correcto de las acciones. Pregunta "¿Qué paso va primero y cuál va después?" para reforzar el concepto. (Proyectar Diapositiva 4)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien, detectives! Ahora, piensen en algo que hacemos todos los días para estar limpios: lavarnos las manos. ¿Qué hacemos primero cuando nos lavamos las manos? ¿Primero el jabón o primero el agua? ¡Sí! ¡Primero abrimos la llave y mojamos las manos con agua, y después usamos el jabón! Si lo hacemos al revés, ¡quizás las manos no queden tan limpias! Hoy vamos a descubrir los secretos de los 'pasos en orden'. ¡Prepárense, que nuestra aventura apenas comienza!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra! El Baile de los Robots ⏰ 20 min</h2>
+<p>Convertimos nuestros cuerpos en robots programables, siguiendo secuencias de movimientos que nos retan a poner atención.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Activando Nuestros Circuitos de Robot! ⏰ 5 min</h3>
+<p>Explica a los niños que serán 'robots' y tú el 'programador'. Muestra las tarjetas de acciones individualmente, pidiendo a los niños que identifiquen y realicen cada movimiento. Asegúrate de que todos tengan espacio para moverse. (Proyectar Diapositiva 5)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, reclutas! ¡Es hora de activar nuestros circuitos de robot! Hoy vamos a aprender los movimientos secretos de los robots. Yo seré el 'programador' y ustedes serán mis 'robots' súper inteligentes. ¡Estamos listos para bailar! Miren estas tarjetas mágicas... ¡Cada una tiene un movimiento! ¿Qué creen que significa esta? (Muestra la tarjeta de 'Saltar'). ¡Exacto, saltar! ¡Vamos a saltar todos juntos! ¿Y esta? (Muestra 'Aplaudir'). ¡Bravo! ¡Aplaudamos! ¡Y esta otra! (Muestra 'Girar'). ¡Muy bien, a girar! ¡Todos listos para recibir las instrucciones de su programador!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Programando el Baile Nivel 1: Dos Pasos! ⏰ 8 min</h3>
+<p>Muestra dos tarjetas de acción en un orden específico (ej. 1. Saltar, 2. Aplaudir). Anuncia: "Este es el programa del robot. Primero, saltar. Después, aplaudir". Pide al grupo que realice la secuencia. Repite con diferentes combinaciones de dos acciones, enfatizando el "primero" y "después". (Proyectar Diapositiva 6)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Nuevo programa cargando! Bip, bop, boop. ¡Listos para la primera secuencia! Miren bien las tarjetas. Este es el programa: ¡Primero, saltar! (Muestra tarjeta de Saltar) ¡Después, aplaudir! (Muestra tarjeta de Aplaudir). ¡Vamos, robots, a ejecutar el programa! ¡Saltar, aplaudir! ¡Excelente! ¿Qué movimiento hicimos primero? ¿Y cuál fue el segundo? ¡Muy bien! Ahora, un nuevo programa: ¡Primero, girar! ¡Después, saltar! ¡A bailar, robots! Si cambiamos el orden, ¿será el mismo baile? ¡Piénsenlo! ¡Lo están haciendo increíble!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 3: ¡Programando el Baile Nivel 2: Tres Pasos! ⏰ 7 min</h3>
+<p>Cuando los niños dominen las secuencias de dos pasos, introduce secuencias de tres tarjetas (ej. 1. Girar, 2. Saltar, 3. Aplaudir). Repite el proceso, verbalizando claramente el orden. Anima a los niños a observar con atención. (Proyectar Diapositiva 7)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Misión Robot en marcha! ¡Estoy viendo unos robots súper talentosos por aquí! Ahora, vamos a subir el nivel. ¡Prepárense para una secuencia con tres pasos! ¡Concéntrense, equipo! Miren bien las tarjetas. ¡Primero, girar! ¡Después, saltar! ¡Y al final, aplaudir! ¡Vamos a hacerlo todos juntos! Girar, saltar, aplaudir. ¡Bravo! ¡Lo hicieron perfecto! ¿Recuerdan cuál fue el primer movimiento? ¿Y el último? ¡Sigan así, súper robots!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida y Compartida! ⏰ 5 min</h2>
+<p>Reflexionamos sobre lo aprendido y compartimos nuestras propias creaciones de secuencias.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Nuestras Propias Secuencias de Robot! ⏰ 3 min</h3>
+<p>Invita a los niños a formar parejas. Explica que ellos serán los 'programadores' y deberán crear una secuencia de dos pasos usando las tarjetas (o mimando las acciones). Recuérdales que piensen qué va 'primero' y qué va 'después'. Pide a algunas parejas que muestren su 'baile' al resto. (Proyectar Diapositiva 8)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Guau, robots! ¡Han hecho un trabajo espectacular siguiendo los programas! Ahora, ¿qué tal si ustedes son los 'programadores'? ¡En parejas, van a crear su propia secuencia de dos movimientos! ¡Pueden usar las tarjetas o simplemente pensar en dos acciones que les gusten! ¡Piensen qué va 'primero' y qué va 'después'! ¡Después, nos muestran su baile a todos! ¡Estoy seguro de que serán unas secuencias geniales! ¡Manos a la obra, pequeños programadores!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Celebración y Adiós a los Robots ⏰ 2 min</h3>
+<p>Reúne al grupo para una breve reflexión final. Felicita el esfuerzo y el aprendizaje de todos, resaltando la importancia del orden en la vida diaria. (Proyectar Diapositiva 9)</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡MISIÓN CUMPLIDA, EQUIPO DE ROBOTS! ¡Lo lograron! Hoy aprendimos que el orden es importantísimo para que todo funcione bien, ¡como en nuestra canción, al vestirnos, al lavarnos las manos y al bailar como robots! ¿Qué fue lo que más les gustó de esta aventura de los pasos secretos? ¡Todos son unos campeones de las secuencias! ¡Les mando un aplauso gigante por su esfuerzo y su alegría! ¡Recuerden que el orden nos ayuda a hacer muchas cosas! ¡Hasta la próxima misión, superhéroes!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
